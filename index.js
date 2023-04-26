@@ -26,7 +26,7 @@ function createConfigRequest() {
       audio_format: 'pcm_s16le',
       sample_rate_hertz: 8000,
       num_audio_channels: 1,
-      enable_interim_results: true,
+      include_nonfinal: true,
     },
     storage_config: {
       object_id: 'streaming recognition test',

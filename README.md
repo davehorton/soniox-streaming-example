@@ -8,7 +8,7 @@ The speaker is saying: "Is the meeting tomorrow in the green room, or the red ro
 
 Interim transcripts are requested, and the purpose of the test is to see how soon after the speaker begins speaking we start to get interim transcripts.  Every response from Soniox is logged with a timestamp. 
 
-# Instructions
+# Installing and running the test
 ```bash
 npm ci
 SONIOX_API_KEY=<your-key> AUDIO_FILE_PATH=./data/is-the-meeting-tomorrow.raw node 
