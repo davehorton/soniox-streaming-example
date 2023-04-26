@@ -4,6 +4,8 @@ This is a simple Node.js application that tests the Soniox streaming API by send
 
 The test file provided contains 8 seconds of audio.  The speaker begins speaking at roughly 3 seconds and 300 milliseconds and speaks until about the 6 second 500 millisecond time.  The audio ends at 8 seconds.
 
+The speaker is saying: "Is the meeting tomorrow in the green room, or the red room?"
+
 Interim transcripts are requested, and the purpose of the test is to see how soon after the speaker begins speaking we start to get interim transcripts.  Every response from Soniox is logged with a timestamp. 
 
 # Instructions
